@@ -43,9 +43,9 @@ function startConfetti() {
     const duration = 20000; 
     const animationEnd = Date.now() + duration;
     const defaults = {
-      startVelocity: 40,
-      spread: 360,
-      ticks: 100,
+      startVelocity: 20,
+      spread: 180,
+      ticks: 120,
       zIndex: 0
     };
   
@@ -57,13 +57,13 @@ function startConfetti() {
       }
   
       confetti(Object.assign({}, defaults, {
-        particleCount: 80,
+        particleCount: 40,
         origin: {
           x: Math.random() * 0.6 + 0.2, 
           y: Math.random() * 0.4 
         }
       }));
-    }, 300); 
+    }, 400); 
   }
 
   
