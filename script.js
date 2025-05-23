@@ -27,7 +27,7 @@ window.onload = () => {
     titleEl.textContent = "Happy Birthday Albe!";
     typeMessage();
     startConfetti();
-  
+    createStars();
     const music = document.getElementById("birthday-audio");
     music.volume = 0.5;
   
@@ -40,7 +40,7 @@ window.onload = () => {
   
 
 function startConfetti() {
-    const duration = 10000; 
+    const duration = 20000; 
     const animationEnd = Date.now() + duration;
     const defaults = {
       startVelocity: 40,
@@ -65,5 +65,7 @@ function startConfetti() {
       }));
     }, 300); 
   }
+
+  
   
   
