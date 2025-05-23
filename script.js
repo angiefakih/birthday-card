@@ -63,7 +63,7 @@ function startConfetti() {
           y: Math.random() * 0.4 
         }
       }));
-    }, 300); 
+    }, 400); 
   }
 
   
