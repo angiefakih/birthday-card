@@ -24,7 +24,7 @@ function restart() {
 }
 
 window.onload = () => {
-    titleEl.textContent = "🎂 Happy Birthday!";
+    titleEl.textContent = "Happy Birthday Albe!";
     typeMessage();
     startConfetti();
   
